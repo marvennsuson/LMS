@@ -1,0 +1,35 @@
+<?php if($GetStudent->num_rows() > 0): ?>
+<?php foreach($GetStudent->result() as $GetStudent_row): ?>
+  <tr>
+      <td><?= htmlentities(ucfirst($GetStudent_row->lastname). ',' .ucfirst($GetStudent_row->firstname) . ' ' . ucwords($GetStudent_row->middlename) ); ?></td>
+      <td><?= htmlentities($GetStudent_row->subjectcode); ?></td>
+      <td><?= htmlentities($GetStudent_row->subject_name); ?></td>
+      <td><?= htmlentities($GetStudent_row->section); ?></td>
+      <td><?= htmlentities($GetStudent_row->schedule); ?></td>
+      <td><?= htmlentities($GetStudent_row->student_type); ?></td>
+    <td>
+      <?php
+        if($GetStudent_row->grade != ""){
+            echo $GetStudent_row->grade;
+        }elseif($GetStudent_row->course != ""){
+              echo $GetStudent_row->course;
+        }elseif($GetStudent_row->strand != ""){
+            echo $GetStudent_row->strand;
+        }else{
+          echo "No data";
+        }
+
+        ?>
+    </td>
+    <td> <input type="checkbox" id="CheckId" class="CheckId" name="CheckId[]" value="<?= $GetStudent_row->id?>"></td>
+  </tr>
+<?php endforeach; ?>
+<?php else: echo"No data"; endif; ?>
+ ' + if(this.grade != ""){this.grade }elseif(this.course != ""){this.course}elseif(this.strand != ""){this.strand}+ '
+ <input type="checkbox" id="CheckId" class="CheckId" name="CheckId[]" value="'+this.id+'">
+'+ this.lastname +' , '+ this.firstname +''+ this.middlename +'
+'+ this.subjectcode +'
+' + this.subject_name + '
+'+ this.section + '
+'+ this.schedule + '
+'+ this.student_type + '

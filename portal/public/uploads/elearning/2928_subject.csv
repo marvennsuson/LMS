@@ -1,0 +1,9 @@
+subjectcode, classcode,subject_name,teacher_code,section,schedule,adviser_teacher,student_id,subject_description
+NVAC-G1D-EN1,NVAC-G1D,English 1,TNVAC001,Dahlia,MW 1:00 - 3:30 PM,TNVAC005,2020-0001,English 1 (Reading and Writing)
+NVAC-G1D-MH1,NVAC-G1D,Mathematics 1,TNVAC002,Dahlia,TTH 1:00 - 3:30 PM,TNVAC005,2020-0001,Mathematics description
+NVAC-G1D-FL1,NVAC-G1D,Filipino 1,TNVAC003,Dahlia,MW 4:00 - 5:30 PM,TNVAC005,2020-0001,Filipino description
+NVAC-G1D-MP1,NVAC-G1D,MAPEH 1,TNVAC004,Dahlia,TTH 4:00 - 5:30 PM,TNVAC005,2020-0001,MAPEH description
+NVAC-G1D-MT1,NVAC-G1D,Mother Tongue 1,TNVAC005,Dahlia,Sunday 9:00 - 10 PM,TNVAC005,2020-0001,Mother Tongue description
+NVAC-G1D-VL1,NVAC-G1D,Values 1,TNVAC006,Dahlia,Sunday 11:00 - 12 NN,TNVAC005,2020-0001,Values description
+NVAC-G1D-AP1,NVAC-G1D,Araling Panlipunan 1,TNVAC007,Dahlia,Friday 9:00 - 10:30 PM,TNVAC005,2020-0001,Araling Panlipunan description
+NVAC-G1D-SC1,NVAC-G1D,Science 1,TNVAC008,Dahlia,MW 9:00 - 10:30 PM,TNVAC005,2020-0001,Science description

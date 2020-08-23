@@ -1,0 +1,61 @@
+.anyClass {
+  height:300px;
+  overflow-y: scroll;
+}
+.thead-row {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.fa-trash-alt{
+  font-size: 25px;
+  color:red;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.fa-plus-circle{
+  font-size: 25px;
+  color: rgb(14, 166, 237);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.fa-eye{
+  font-size: 25px;
+  color:#e03131;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.fa-cloud-download-alt{
+  font-size: 25px;
+  color: #74b816;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.fa-folder-plus{
+  font-size: 75px;
+  color: gray;
+
+}
+.img-thumbnail{
+      height: 120px;
+      width: 170px;
+}
+.img-thumbnail:hover{
+      border: 1px solid rgb(206, 206, 206);
+}
